@@ -47,6 +47,42 @@ PQCOMB-CODES/
 3. **Unitary Transpose**:
    - Methods to calculate the transpose of unitary matrices, useful in machine learning and state transformation tasks.
    - `process_transpose.ipynb` and `swap_transpose.ipynb` provide practical guides for these techniques, emphasizing complexity, use cases, and detailed examples.
+## Visualization Data Reference
+
+The following table provides an overview of where to locate the data visualizations corresponding to the figures and tables presented in the PQComb paper:
+
+| Visualization      | Location in Repository                                           |
+|--------------------|------------------------------------------------------------------|
+| Table I (d=2)      | `unitary_inversion/d = 2/comb-based`                              |
+|                    | `unitary_inversion/d = 2/process-based`                          |
+|                    | `unitary_inversion/d = 2/swap`                                    |
+| Fig 3              | `unitary_inversion/d = 2/noise simulation`                        |
+| Fig S3             | `unitary_inversion/d = 2/refinement`                              |
+| Table I (d=3)      | `unitary_inversion/d = 3/comb-based`                              |
+|                    | `unitary_inversion/d = 3/process-based`                          |
+| Table II           | `unitary_inversion/d = 3/swap`                                    |
+| Table III          | `unitary_transpose/process-based`                                 |
+| Table IV           | `unitary_transpose/swap`                                          |
+
+## System and Package Versions
+
+It is recommended to run this project on a High Performance Computing (HPC) system, especially for tasks involving large datasets or complex simulations. Below are the tested versions of required packages and system specifications:
+
+**Package Versions**:
+- quairkit: 0.2.0
+- torch: 2.4.1+cu121
+- torch cuda: 12.1
+- numpy: 1.26.4
+- scipy: 1.14.1
+- matplotlib: 3.9.2
+
+**System Information**:
+- Python version: 3.10.14
+- OS: Linux, Ubuntu (version: #123-Ubuntu SMP Mon Jun 10 08:16:17 UTC 2024)
+- CPU: Intel(R) Xeon(R) Platinum 8378A CPU @ 3.00GHz
+- GPU: NVIDIA A800 80GB PCIe (6 GPUs in total)
+
+These settings ensure compatibility and optimal performance when running the PQComb codes.
 
 ## How to Install QuAIRKit
 
