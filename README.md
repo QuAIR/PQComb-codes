@@ -10,9 +10,9 @@ The repository is divided into separate components, each exploring different app
 
 The core areas of this repository include:
 
-- **Channel Discrimination**: Quantum algorithms for distinguishing between different quantum channels.
 - **Unitary Inversion**: Methods to calculate the inverse of unitary processes, which is crucial for quantum process control.
 - **Unitary Transpose**: Techniques to compute the transpose of unitary matrices, aiding in state transformations and machine learning applications.
+- **Channel Discrimination**: Quantum algorithms for distinguishing between different quantum channels.
 
 ## Overall Structure
 
