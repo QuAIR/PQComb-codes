@@ -4,9 +4,9 @@ Source code for the paper [*Parameterized quantum comb and simpler circuits for 
 
 PQComb is a novel quantum framework that employs parameterized quantum circuits to transform quantum processes. This approach simplifies complex quantum operations by treating them as trainable network components, similar to neural networks in classical machine learning. By optimizing these quantum components through iterative training, PQComb would be an efficient tool for quantum algorithmic design.
 
-The table below outlines the Python files used to reproduce data for the figures and tables in the PQComb paper. Related visualization codes and original data are available from the corresponding authors upon reasonable request.
+The table below outlines the Python files used to reproduce data for the figures and tables in the PQComb paper. Related visual codes and original data are available from the corresponding authors upon reasonable request.
 
-| Data in the paper      | Location in this repository                                           | Additional requirement |
+| Visualization in the paper      | Location in this repository                                           | Extra hardware requirement |
 |--------------------|------------------------------------------------------------------|:-----------------:|
 | [Table I](./unitary_inversion/d%20=%202/4-call%20protocol%20in%20Theorem%201.ipynb)      | `unitary_inversion/d = 2/comb-based`                              | \ |
 | [Figure 2](./unitary_inversion/d%20=%202/comb-based/comb_inversion.ipynb)           | `unitary_inversion/d = 2/4-call protocol in Theorem 1.ipynb`                              | \ |
