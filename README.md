@@ -24,12 +24,12 @@ The table below outlines the Python files used to reproduce data for the visuali
 
 ```plaintext
 PQCOMB-CODES/
-├── channel_discrimination/               # Quantum channel discrimination task.
 ├── unitary_inversion/                    # Unitary inversion
 │   ├── d = 2                             # qubit-unitary inversion
-│   │   ├── noise simulation/             # noise simulation for inversion.
+│   │   ├── noise simulation/             # noise simulation for inversion
 │   ├── d = 3                             # qutrit-unitary inversion
-└── unitary_transpose/                    # qutrit-unitary transpose
+├── unitary_transpose/                    # qutrit-unitary transpose
+└── channel_discrimination/               # Quantum channel discrimination task
 ```
 
 ## How to Run These Files?
