@@ -42,15 +42,12 @@ conda activate pqcomb
 conda install jupyter notebook
 ```
 
-These codes are highly dependent on the [QuAIRKit](https://github.com/QuAIR/QuAIRKit) package, featured for batch and qudit computations in quantum information science and quantum machine learning. The minimum Python version required for QuAIRKit is `3.8`.
+These codes are highly dependent on the [QuAIRKit](https://github.com/QuAIR/QuAIRKit) package no lower than v0.3.0. This package is featured for batch and qudit computations in quantum information science and quantum machine learning. The minimum Python version required for QuAIRKit is `3.8`.
 
-We provides the installation files for QuAIRKit in this repository. To install QuAIRKit locally, run the following commands:
+To install QuAIRKit, run the following commands:
 
 ```bash
-cd <where this repository locates>
-cd QuAIRKit
-
-pip install -e .
+pip install quairkit
 ```
 
 ## System and Package Versions
@@ -59,7 +56,7 @@ It is recommended to run these files on a High Performance Computing (HPC) syste
 
 **Package Versions**:
 
-- quairkit: 0.2.0
+- quairkit: 0.3.0
 - torch: 2.4.1+cu121
 - torch cuda: 12.1
 - numpy: 1.26.4
